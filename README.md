@@ -3,6 +3,12 @@
 LinxGuard is a beginner-friendly Linux system guardian daemon written in Go.
 It continuously monitors system health and explains problems in simple human language, instead of throwing cryptic metrics at users.
 
+## 📦 Installation
+
+Download the latest `.deb` from GitHub Releases:
+https://github.comkumar10248/linxguard/releases
+
+
 Built with a systems-engineering mindset: safe by default, non-root, systemd-managed, and production-ready.
 
 ✨ Features
@@ -181,3 +187,5 @@ MIT License
 
 PRs welcome.
 Ideas, bug reports, and feature requests are encouraged.
+
+
