@@ -1,0 +1,26 @@
+[Unit]
+Description=LinxGuard - Beginner Friendly Linux System Guardian
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/linxguard daemon
+Restart=always
+RestartSec=5
+
+User=linxguard
+Group=linxguard
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+

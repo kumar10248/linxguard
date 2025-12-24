@@ -1,0 +1,16 @@
+interval_seconds: 15
+
+cpu:
+  warning: 75
+  critical: 90
+
+memory:
+  warning: 75
+  critical: 90
+
+disk:
+  warning: 85
+  critical: 95
+
+zombie:
+  warning: 10

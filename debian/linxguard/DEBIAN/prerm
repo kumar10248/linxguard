@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+systemctl stop linxguard || true
+systemctl disable linxguard || true
+
+exit 0

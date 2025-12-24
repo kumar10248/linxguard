@@ -1,0 +1,9 @@
+Package: linxguard
+Version: 1.1.0
+Section: admin
+Priority: optional
+Architecture: amd64
+Maintainer: Kumar Devashish <kumardevashish000@gmail.com>
+Description: Beginner-friendly Linux system guardian daemon
+ LinxGuard monitors CPU, memory, disk, and zombie processes
+ and explains system issues in human-readable language.

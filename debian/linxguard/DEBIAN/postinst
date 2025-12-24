@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+
+# Create system user if not exists
+if ! id linxguard >/dev/null 2>&1; then
+    useradd --system --no-create-home --shell /usr/sbin/nologin linxguard
+fi
+
+# Reload systemd
+systemctl daemon-reload
+
+# Enable & start service
+systemctl enable linxguard
+systemctl restart linxguard
+
+exit 0
